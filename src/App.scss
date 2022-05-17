@@ -1,0 +1,47 @@
+.app {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  overflow: hidden;
+  background-color: rgb(9, 32, 238); 
+  height: 100vh;
+  color:#FFF;
+  background: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  .leftSide {
+    display: grid;
+    align-items: center;
+    // border-right: 1px solid #900;
+    padding-left: 0.3em;
+  }
+  .rightSide {
+    padding-left: 2em;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 15%;
+    width: 600px;
+    height: 180px;    
+    background: url(images/background.jpg);
+    justify-self: center;
+    align-self: top;
+  }
+  
+  .cardBox {
+    align-self: center;
+    cursor: pointer;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .css-882cgy{
+    max-height: 100px;
+    max-width: 100px;
+    margin-top: -55px;
+    border: 0;
+    img{
+      margin-top: -55px;
+    }
+  }
+}
